@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "sourceMap": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "types/globals.d.ts",
+    "types/vue.d.ts",
+    "types/vuex.d.ts",
+    "types/vue-property-decorator.d.ts",
+    "src/main.ts"
+  ]
+}
