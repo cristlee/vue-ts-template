@@ -3,6 +3,7 @@
     "dev": "webpack-dev-server --inline --hot --open"
   },
   "dependencies": {
+    "axios": "^0.15.3",
     "pug": "^2.0.0-beta6",
     "pug-loader": "^2.3.0",
     "stylus": "^0.54.5",

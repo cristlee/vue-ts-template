@@ -14,6 +14,10 @@ export default {
     yell() {
       this.msg = this.msg + "!"
     }
+  },
+
+  mounted() {
+    this.$http.get('/index.html').then( ({data}) => console.log(data) )
   }
 }
 </script>

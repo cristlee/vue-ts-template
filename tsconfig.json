@@ -9,6 +9,7 @@
   },
   "include": [
     "types/globals.d.ts",
+    "types/axios.d.ts",
     "types/vue.d.ts",
     "types/vuex.d.ts",
     "types/vue-property-decorator.d.ts",

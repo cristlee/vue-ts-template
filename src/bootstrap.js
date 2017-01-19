@@ -1,12 +1,13 @@
 import Vue from 'vue'
+import axios from 'axios';
 import { Component, prop, watch } from 'vue-property-decorator'
-import {
-  State,
-  Getter,
-  Action,
-  Mutation,
-  namespace
-} from 'vuex-class'
+import { State, Getter, Action, Mutation, namespace } from 'vuex-class'
+
+axios.defaults.headers.common = {
+    "X-Requested-With": "XMLHttpRequest"
+};
+
+Vue.prototype.$http = axios;
 
 window.Vue       = Vue
 window.prop      = prop

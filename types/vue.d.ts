@@ -191,6 +191,7 @@ declare class Vue {
   constructor(options?: ComponentOptions<Vue>);
 
   $data: Object;
+  $http: typeof Axios;
   readonly $el: HTMLElement;
   readonly $options: ComponentOptions<this>;
   readonly $parent: Vue;
