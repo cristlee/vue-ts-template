@@ -7,7 +7,7 @@
 <script lang="ts">
 @Component
 export default class Hello extends Vue {
-  @prop(String) name: string
+  @prop() name: string
   @state('count') count: number
   @mutation('increment') increment: Function
 }

@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
+    "target": "es5",
+    "sourceMap": true,
     "module": "commonjs",
-    "target": "es6",
     "noImplicitAny": true,
     "noImplicitThis": true,
-    "sourceMap": true,
+    "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "lib": ["dom", "es5", "es2015.promise"]
   },
