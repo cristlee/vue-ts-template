@@ -8,7 +8,7 @@
 @Component
 export default class Hello extends Vue {
   @prop() name: string
-  @state('count') count: number
-  @mutation('increment') increment: Function
+  @state count: number
+  @mutation increment: Function
 }
 </script>

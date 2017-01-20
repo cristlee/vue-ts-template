@@ -14,6 +14,7 @@
     "types/axios.d.ts",
     "types/vue.d.ts",
     "types/vuex.d.ts",
+    "types/vuex-class.d.ts",
     "types/vue-property-decorator.d.ts",
     "src/main.ts"
   ]

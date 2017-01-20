@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import axios from 'axios';
 import './bootstrap-theme.js';
-import { Component, prop, watch } from 'vue-property-decorator'
+import { Component, watch } from 'vue-property-decorator'
+import { prop } from 'vue-property-decorator/lib/metadata'
 import { State, Getter, Action, Mutation, namespace } from 'vuex-class'
 
 axios.defaults.headers.common = {
