@@ -5,7 +5,8 @@
     "noImplicitAny": true,
     "noImplicitThis": true,
     "sourceMap": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "lib": ["dom", "es5", "es2015.promise"]
   },
   "include": [
     "types/globals.d.ts",
