@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import axios from 'axios';
+import './bootstrap-theme.js';
 import { Component, prop, watch } from 'vue-property-decorator'
 import { State, Getter, Action, Mutation, namespace } from 'vuex-class'
 
