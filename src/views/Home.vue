@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    hello(name="Evert")
+    hello(name="Evert", :fn="12")
     bye
     br
     el-date-picker(

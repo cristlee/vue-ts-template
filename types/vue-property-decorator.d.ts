@@ -13,7 +13,8 @@ declare namespace VueClassComponent {
  * @param  {PropOption}        options the option for the prop
  * @return {PropertyDecorator}         PropertyDecorator
  */
-declare function Prop(options?: (PropOptions | Constructor | Constructor[])): PropertyDecorator;
+declare function Prop(target: Vue, key: string): void;
+declare function Prop(target?: (PropOptions | Constructor[])): PropertyDecorator;
 /**
  * decorator of a watch function
  * @param  {string}            path the path or the expression to observe

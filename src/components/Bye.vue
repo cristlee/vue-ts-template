@@ -13,11 +13,11 @@ export default {
   methods: {
     yell() {
       this.msg = this.msg + "!"
+      this.mounted()
+    },
+    mounted() {
+      alert(this.msg)
     }
-  },
-
-  mounted() {
-    this.$http.get('/index.html').then( ({data}) => console.log(data) )
   }
 }
 </script>

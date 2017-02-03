@@ -1,7 +1,11 @@
 import Vue = require("vue");
 import Vuex = require("vuex");
 
-Vue.use(Vuex);
+let vuexAlreadyInitialized = (<any>Vue).options.beforeCreate.reduce(
+    (result: boolean, fn: any) => fn.name === "vuexInit" || result, false
+);
+
+if (! vuexAlreadyInitialized) Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {

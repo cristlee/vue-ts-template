@@ -18,6 +18,7 @@
     "vuex-router-sync": "^4.1.1"
   },
   "devDependencies": {
+    "av-ts": "https://github.com/Evertt/av-ts.git#39154265862728504b75b0ae13ba981226cbea43",
     "css-loader": "0.26.1",
     "ts-loader": "1.3.3",
     "tslint": "4.1.1",
@@ -26,8 +27,9 @@
     "typings": "2.0.0",
     "vue-class-component": "^4.4.0",
     "vue-loader": "10.0.2",
-    "vue-property-decorator": "^3.3.0",
+    "vue-property-decorator": "^3.4.0",
     "vue-template-compiler": "2.1.6",
+    "vue-typescript-component": "https://github.com/Evertt/vue-typescript-component.git#0210c78559d79bc557bd87da4c7932e94d8b587f",
     "webpack": "2.2.0-rc.1",
     "webpack-dev-server": "2.2.0-rc.0"
   }

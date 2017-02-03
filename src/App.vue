@@ -7,8 +7,12 @@
 </template>
 
 <script lang="ts">
+// import Hello from './components/Hello.vue'
+
 @Component
-export default class App extends Vue {}
+export default class App extends Vue {
+  // static components = { Hello }
+}
 </script>
 
 <style lang="stylus">
