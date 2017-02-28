@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    hello(name="Evert", :fn="12")
+    hello
     bye
     br
     el-date-picker(
@@ -16,8 +16,9 @@
 import Hello from '../components/Hello.vue'
 import Bye from '../components/Bye.vue'
 
-@Component({ components: { Hello, Bye }})
+@Component
 export default class Home extends Vue {
+  static components = { Hello, Bye }
   date = ""
 }
 </script>

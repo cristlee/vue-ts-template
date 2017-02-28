@@ -9,13 +9,5 @@
     "experimentalDecorators": true,
     "lib": ["dom", "es5", "es2015.promise"]
   },
-  "include": [
-    "types/globals.d.ts",
-    "types/axios.d.ts",
-    "types/vue.d.ts",
-    "types/vuex.d.ts",
-    "types/vuex-class.d.ts",
-    "types/vue-property-decorator.d.ts",
-    "src/main.ts"
-  ]
+  "include": ["types/**/*", "src/main.ts"]
 }

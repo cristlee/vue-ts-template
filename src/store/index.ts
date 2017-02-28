@@ -1,7 +1,7 @@
 import Vue = require("vue");
 import Vuex = require("vuex");
 
-let vuexAlreadyInitialized = (<any>Vue).options.beforeCreate.reduce(
+let vuexAlreadyInitialized = ((<any>Vue).options.beforeCreate || []).reduce(
     (result: boolean, fn: any) => fn.name === "vuexInit" || result, false
 );
 
