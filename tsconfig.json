@@ -2,12 +2,14 @@
   "compilerOptions": {
     "target": "es5",
     "sourceMap": true,
-    "module": "commonjs",
+    "module": "es2015",
     "noImplicitAny": true,
     "noImplicitThis": true,
+    "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
     "lib": ["dom", "es5", "es2015.promise"]
   },
-  "include": ["types/**/*", "src/main.ts"]
+  "include": ["types/**/*"]
 }
